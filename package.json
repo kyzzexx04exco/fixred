@@ -1,0 +1,16 @@
+{
+  "name": "kyz-bot",
+  "version": "5.0.0",
+  "description": "KYZ Fix Merah — WhatsApp Appeal Telegram Bot (MongoDB + Rich Messages)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev":   "npx nodemon bot.js"
+  },
+  "dependencies": {
+    "telegraf":   "^4.16.3",
+    "nodemailer": "^6.9.13",
+    "mongodb":    "^6.9.0",
+    "imapflow":   "^1.0.164"
+  }
+}
